@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  .navbar-brand {
+    font-size: 40px;
+    color: map-get($colours, navbar-brand);
+  }
+
+  li {
+    font-size: 20px;
+  }
+
+  #active {
+    color: map-get($colours, pink);
+  }
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: map-get($colours, headings);
+}
+
+footer {
+  color: map-get($colours, links);
+}

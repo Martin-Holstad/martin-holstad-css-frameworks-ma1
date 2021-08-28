@@ -1,0 +1,13 @@
+body {
+  background-color: map-get($colours, primary);
+}
+
+main {
+  margin: 0px 50px 0px 50px;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
