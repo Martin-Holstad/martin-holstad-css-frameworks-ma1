@@ -8,3 +8,17 @@ footer {
     margin: 0px 50px 0px 50px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  footer {
+    display: block;
+    text-align: center;
+    background-color: map-get($colours, withe);
+    padding-top: 20px;
+    height: 120px;
+
+    p {
+      margin-top: 10px;
+    }
+  }
+}
